@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "app weather Ajax js",
+			"path": "."
+		},
+		{
+			"name": "media",
+			"path": "../media"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "app weather Ajax js"
+	}
+}

@@ -1,0 +1,60 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/399832d079.js" crossorigin="anonymous"></script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.12/css/weather-icons.min.css' integrity='sha512-r/Gan7PMSRovDus++vDS2Ayutc/cSdl268u047n4z+k7GYuR7Hiw71FsT3QQxdKJBVHYttOJ6IGLnlM9IoMToQ==' crossorigin='anonymous'/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;600&family=Indie+Flower&family=Mali&family=Roboto:wght@300;400&family=Schoolbell&display=swap" rel="stylesheet">
+    <title>api Meteo Ajax</title>
+    
+</head>
+<body>
+    
+        <section id="app">
+                
+                <img  id="img" src="couvert.jpg" alt="">
+            
+            <div class="ville-date">
+
+                <h1>
+                <span id="ville">Paris</span>
+                </h1>
+
+                <h2 id="date">Vendredi 09 Mars</h2>
+
+            </div>
+            
+            <div class="weatherBox">
+            <div class="icon">
+                <i class="wi wi-day-rain" id="iconWeather"></i>
+            </div>
+
+             <p id="conditions"></p>
+            </div>
+            <h3>
+                <span id="temperature">25</span> 
+                <span class="celcius">C°</span> 
+            </h3>
+            
+           
+        
+          <form>
+            <input type="text" id="searchInput" autocomplete="off" placeholder="chercher une ville">
+         </form>  
+
+
+         <div class="addCity">
+            <i class="fa-solid fa-plus"></i>
+         </div>
+        </section>
+
+        
+
+
+    <script src="app.js"></script>
+</body>
+</html>
